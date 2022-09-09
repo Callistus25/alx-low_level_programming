@@ -3,7 +3,7 @@
 
 /**
  * main - Entry point
- *
+ * Author : Callistus Obidiozor
  * Description: prints words as described below,"
  *
  * Return: Always 0 (Success)
