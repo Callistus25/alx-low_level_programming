@@ -1,4 +1,3 @@
-#!/bin/bash
 /*
  * File: 101-quote.c
  * Auth: Callistus Obidiozor
