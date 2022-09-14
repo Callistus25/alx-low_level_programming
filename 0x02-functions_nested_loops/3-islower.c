@@ -1,7 +1,8 @@
 #include "main.h"
 
 
-/*
+/**
+ * _islower - Is the character lowercase?
  * File: 3-islower.c
  * Auth: Callistus Obidiozor
  *

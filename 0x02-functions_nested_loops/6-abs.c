@@ -3,6 +3,7 @@
 
 
 /**
+ * _abs - Computes the absolute value of an integer.
  * print_last_digit - prints last digit in a number
  * @n: The integer number that is to be worked on
  *

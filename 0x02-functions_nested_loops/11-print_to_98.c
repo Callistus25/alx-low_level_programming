@@ -2,15 +2,15 @@
 #include <stdio.h>
 
 /**
- * File: 11-print_to_98.c
- * Auth: Callistus Obidiozor
+ * print_to_98 - prints all natural numbers up to 98
+ * @n: number to start counting from
+ *
+ * Description: Prints all natural numbers up to 98.
+ * If the starting number is greater than 98, the
+ * function counts down to 98. Otherwise, the
+ * function counts up to 98.
  */
 
-/**
- * print_to_98 - Prints all natural numbers from input to 98,
- *               in order separated by a comma followed by a space.
- * @n: The number to begin counting at.
- */
 void print_to_98(int n)
 {
 	if (n >= 98)

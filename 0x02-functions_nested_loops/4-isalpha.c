@@ -1,12 +1,14 @@
 #include "main.h"
 
-/*
- * File: 4-isalpha.c
- * Auth: Callistus Obidiozor
- * Description: _isalpha - Checks if a character is alphabetic.
- * @c: The character to be checked.
+/**
+ * _isalpha - Determines alphabetic characters
+ * @c: Character to be evaluated
  *
- * Return: 1 if character is letter, lowercase or uppercase, 0 otherwise.
+ * Description: This function uses the ASCII code of
+ * the character passed to it as an argument when called
+ * to determine if the character is a letter of the
+ * alphabet.
+ * Return: 1 (letter of alphabet) or 0 (not letter of alphabet)
  */
 
 int _isalpha(int c)

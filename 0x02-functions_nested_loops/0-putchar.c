@@ -11,7 +11,9 @@
 
 /**
  * main - Prints "_putchar" followed by a new line.
- *
+ * Description: This is a program that will print the
+ * the message "_putchar" to the screen followed by a
+ * newline.
  * Return: Always 0.
  */
 int main(void)
