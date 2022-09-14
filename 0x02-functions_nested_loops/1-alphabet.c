@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main.h"
+
 /*
  * File: 1-alphabet.c
  * Auth: Callistus Obidiozor

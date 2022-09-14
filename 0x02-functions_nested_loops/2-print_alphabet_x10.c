@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 
 /*
  * File: 2-Print_alphabet_x10.c

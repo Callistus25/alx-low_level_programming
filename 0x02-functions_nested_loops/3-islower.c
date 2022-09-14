@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main.h"
+
 
 /*
  * File: 3-islower.c
