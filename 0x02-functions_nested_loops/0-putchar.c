@@ -2,15 +2,7 @@
 #include "main.h"
 
 /**
- * File: _putchar.c
- * Auth: Callistus Obidiozor
- *
- */
-
-
-
-/**
- * main - Prints "_putchar" followed by a new line.
+ * main - Program entry point
  * Description: This is a program that will print the
  * the message "_putchar" to the screen followed by a
  * newline.
