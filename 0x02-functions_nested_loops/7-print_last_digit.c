@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include "main.h"
+
 
 /**
  * print_last_digit - Prints the last digit
@@ -24,5 +25,3 @@ int print_last_digit(int n)
 		return (l);
 	}
 }
-Footer
-© 2022 GitHub, Inc.

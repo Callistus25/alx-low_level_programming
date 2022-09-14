@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /*
  * File: 4-isalpha.c

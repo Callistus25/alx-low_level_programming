@@ -1,11 +1,11 @@
-#include <stdio.h>
+#include "main."
 
 /*
  * File: 1-alphabet.c
  * Auth: Callistus Obidiozor
  */
 
-#include "holberton.h"
+#include "main.h"
 
 /**
  * print_alphabet - prints the alphabet in lowercase, followed by a new line.

@@ -1,7 +1,7 @@
 #include <stdio.h>
+#include "main.h"
 
-
-/*
+/**
  * File: _putchar.c
  * Auth: Callistus Obidiozor
  *
