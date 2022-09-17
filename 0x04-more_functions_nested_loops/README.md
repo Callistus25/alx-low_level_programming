@@ -1,6 +1,8 @@
 ## More functions, more nested loops
 
 Project i did during Full Stack Software Engineering studies at alx. It aims to learn about nested loops in `C` language.
+
+
 0. isupper.
 
 	- [0-isupper.c](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x04-more_functions_nested_loops/0-isupper.c): `C` function that checks for uppercase characters. Returns 1 if the character is uppercase, 0 otherwise.
