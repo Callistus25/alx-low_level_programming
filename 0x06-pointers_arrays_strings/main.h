@@ -1,5 +1,5 @@
-#ifndef MAIN_H_
-#define MAIN_H_
+#ifndef main_h_
+#define main_h_
 
 int _putchar(char c);
 char *_strcat(char *, char *);
@@ -14,4 +14,4 @@ char *rot13(char *);
 void print_number(int);
 char *infinite_add(char *, int size_r);
 void print_buffer(char *b, int size);
-#endif  /* MAIN_H_ */
+#endif  /* main_h_ */

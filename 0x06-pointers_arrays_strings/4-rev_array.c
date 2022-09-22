@@ -7,21 +7,17 @@
  * reverse_array - reverses array
  * @a: array of integers
  * @n: number of elements in array
- * Return: void
+ * Return: nothing.
  */
 
 void reverse_array(int *a, int n)
 {
-	int half = n / 2;
-	int left, right, i;
+	int tmp, index;
 
-	n -= 1;
-
-	for (i = 0; i < half; i++)
+	for (index = n - 1; index >= n / 2; index--)
 	{
-		left = a[n - i];
-		right = a[i];
-		a[i] = left;
-		a[n - i] = right;
+		tmp = a[n - 1 - index];
+		a[n - 1 - index] = a[index];
+		a[index] = tmp;
 	}
 }
