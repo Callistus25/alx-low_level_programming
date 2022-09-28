@@ -59,4 +59,8 @@ This project coveres what i learnt about what and how to use pointers to pointer
  - [100-set_string.c](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/100-set_string.c).c: C function that sets the value of a pointer to a char.
 9. My primary goal of hacking was the intellectual curiosity, the seduction of adventure
 
- - [101-crackme_password](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/101-crackme_password): File containing the password for the crackme2 executable.
+ - [101-crackme_password](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/101-crackme_password): File containing the password for the [crackme2](https://github.com/holbertonschool/0x06.c) executable.
+	- File should contain the exact password, no new line, no extra space
+	- `ltrace`, `ldd`, `gdb` and `objdump` can help.
+	- You may need to install the `openssl` library to run the `crakme2` program: `sudo apt install libssl-dev`
+	- Edit the source list `sudo nano /etc/apt/sources.list` to add the following line: `deb http://security.ubuntu.com/ubuntu xenial-security main` Then `sudo apt update` and `sudo apt install libssl1.0.0`
