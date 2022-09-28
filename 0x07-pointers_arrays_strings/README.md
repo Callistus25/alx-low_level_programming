@@ -55,8 +55,8 @@ This project coveres what i learnt about what and how to use pointers to pointer
 	- Prototype: void print_diagsums(int *a, int size);*
 	- Format: see example
 	- You are allowed to use the standard library8. Double pointer, double fun
-
- - [9-set_string].c: C function that sets the value of a pointer to a char.
+8. Double pointer, double fun
+ - [100-set_string.c](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/100-set_string.c).c: C function that sets the value of a pointer to a char.
 9. My primary goal of hacking was the intellectual curiosity, the seduction of adventure
 
- - 101-crackme_password: File containing the password for the crackme2 executable.
+ - [101-crackme_password](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/101-crackme_password): File containing the password for the crackme2 executable.
