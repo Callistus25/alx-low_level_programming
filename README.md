@@ -8,8 +8,11 @@ This repository contains programs written for the low-level programming and algo
 - [0x03. C - debugging](https://github.com/Callistus25/alx-low_level_programming/tree/master/0x03-debugging)  
 - [0x04. C - More functions, more nested loops](https://github.com/Callistus25/alx-low_level_programming/tree/master/0x04-more_functions_nested_loops)
 - [0x05. C - Pointers, arrays and strings the C language](https://github.com/Callistus25/alx-low_level_programming/tree/master/0x05-pointers_arrays_strings)
-- [0x06. C - More pointers, arrays and strings]
-0x06. C - Even more pointers, arrays and strings
-0x07. C - Recursion
-0x08. C - Static libraries
+- [0x06. C - More pointers, arrays and strings](https://github.com/Callistus25/alx-low_level_programming/tree/master/0x06-pointers_arrays_strings)
+- [0x07. C - Even more pointers, arrays and strings](https://github.com/Callistus25/alx-low_level_programming/tree/master/0x07-pointers_arrays_strings)
+- [0x08. C - Recursion](https://github.com/Callistus25/alx-low_level_programming/tree/master/0x08-recursion)
+- [0x09. C - Static libraries](https://github.com/Callistus25/alx-low_level_programming/tree/master/0x09-static_libraries)
+- [0x09. C - argc, argv](https://github.com/bdbaraban/holbertonschool-low_level_programming/blob/master/0x09-argc_argv)
+- [0x0A. C - malloc, free](https://github.com/bdbaraban/holbertonschool-low_level_programming/blob/master/0x0A-malloc_free)
+- [0x0B. C - More malloc, free](https://github.com/bdbaraban/holbertonschool-low_level_programming/blob/master/0x0B-more_malloc_free)
 
