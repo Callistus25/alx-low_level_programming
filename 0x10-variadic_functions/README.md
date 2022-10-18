@@ -2,7 +2,7 @@
 
 This project covers the use of variadic functions with the `va_start`, `va_arg`, and `va_end` macros as well as why and how to use the const type qualifier in C.
 
-[variadic_functions.h]: Header file containing definitions and prototypes for all types and functions written in the project.
+[Variadic_functions.h](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x10-variadic_functions/variadic_functions.h): Header file containing definitions and prototypes for all types and functions written in the project.
 
 
 ## Tasks
