@@ -10,22 +10,28 @@ This project covers the use of variadic functions with the `va_start`, `va_arg`,
 0. Beauty is variable, ugliness is constant
 
 	- [0-sum_them_all.c](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x10-variadic_functions/0-sum_them_all.c): C function that returns the sum of all its paramters.
-	- If the parameter n == 0, the function returns 0.
+	- If the parameter `n==0`, the function returns 0.
 
 1. To be is to be the value of a variable
 
 	- [1-print_numbers.c](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x10-variadic_functions/1-print_numbers.c): C function that prints numbers, followed by a new line.
-	- The paramter separator is the string to be printed between numbers.
-	- The parameter n is the number of integers passed to the function.
-	- If separator is NULL, it is not printed.
+	- Prototype: `void print_numbers(const char *separator, const unsigned int n, ...);`
+	- where `separator` is the string to be printed between numbers
+	- and `n` is the number of integers passed to the function
+	- You are allowed to use `printf`
+	- If `separator` is `NULL`, don’t print it
+	- Print a new line at the end of your function
 
 2. One woman's constant is another woman's variable
 
 	- [2-print_strings.c](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x10-variadic_functions/2-print_strings.c): C function that prints strings, followed by a new line.
-	- The parameter separator is the string to be printed between the strings.
-	- The parameter n is the number of strings passed to the function.
-	- If separator is `NULL`, it is not printed.
-	- If one of the strings is NULL, the function prints (nil) instead.
+	- Prototype: `void print_strings(const char *separator, const unsigned int n, ...);`
+	- where `separator` is the string to be printed between the strings
+	- and `n` is the number of strings passed to the function
+	- You are allowed to use `printf`
+	- If separator is `NULL`, don’t print it
+	- If one of the string is `NULL`, print `(nil)` instead
+	- Print a new line at the end of your function
 
 3. To be is a to be the value of a variable
 
