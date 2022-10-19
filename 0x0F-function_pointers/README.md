@@ -18,13 +18,14 @@ This project is about function pointers in `C` - what they hold, where they poin
 	- and action is a pointer to the function you need to use
 2. To hell with circumstances; I create opportunities
 
-	- [2-int_index.c]: C function that searches for an integer.
-Prototype: int int_index(int *array, int size, int (*cmp)(int));
-where size is the number of elements in the array array
-cmp is a pointer to the function to be used to compare values
-int_index returns the index of the first element for which the cmp function does not return 0
-If no element matches, return -1
-If size <= 0, return -1
+	- [2-int_index.c](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x0F-function_pointers/2-int_index.c): C function that searches for an integer.
+	- Prototype: `int int_index(int *array, int size, int (*cmp)(int));`
+	- where `size` is the number of elements in the array `array`
+	- `cmp` is a pointer to the function to be used to compare values
+	- `int_index` returns the index of the first element for which the cmp function does not return 0
+	- If no element matches, return `-1`
+	- If size <= `0`, return `-1`
+
 3. A goal is not always meant to be reached, it often serves simply as something to aim at
 
 3-op_functions.c: File containing the following five functions:
