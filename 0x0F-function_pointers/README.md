@@ -1,17 +1,21 @@
 ## C - Function pointers
 
- This project is about function pointers in C - what they hold, where they point in virtual memory, and how to use them.
+This project is about function pointers in `C` - what they hold, where they point in virtual memory, and how to use them.
 
-- [function_pointers.h]: Header file containing prototypes for all functions written for programs 0-2 of the project.
+- [function_pointers.h](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x0F-function_pointers/function_pointers.h): Header file containing prototypes for all functions written for programs 0-2 of the project.
 
 ## Tasks
 
 0. What's my name
 
-0-print_name.c: C function that prints a name.
+	- [0-print_name.c](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x0F-function_pointers/0-print_name.c): C function that prints a name.
+	- Prototype: `void print_name(char *name, void (*f)(char *));`
 1. If you spend too much time thinking about a thing, you'll never get it done
 
-1-array_iterator.c: C function that executes a function given as a parameter on each element of an array.
+	- [1-array_iterator.c](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x0F-function_pointers/1-array_iterator.c): C function that executes a function given as a parameter on each element of an array.
+	- Prototype: void array_iterator(int *array, size_t size, void (*action)(int));
+	- where size is the size of the array
+	- and action is a pointer to the function you need to use
 2. To hell with circumstances; I create opportunities
 
 2-int_index.c: C function that searches for an integer.
