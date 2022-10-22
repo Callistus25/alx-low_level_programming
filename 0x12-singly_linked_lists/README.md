@@ -30,9 +30,12 @@ This project covers the building and using singly linked lists in `C` while lear
 
 3. Add node at the end
 
-3-add_node_end.c: C function that adds a new node at the end of a linked list_t list.
-If the function fails - returns NULL.
-Otherwise - returns the address of the new element.
+	- [3-add_node_end.c](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x12-singly_linked_lists/3-add_node_end.c): C function that adds a new node at the end of a linked list_t list.
+	- Prototype: `list_t *add_node_end(list_t **head, const char *str);`
+	- Return: the address of the new element, or `NULL` if it failed
+	- `str` needs to be duplicated
+	- You are allowed to use `strdup`
+
 4. Free list
 
 4-free_list.c: C function that frees a list_t list.
