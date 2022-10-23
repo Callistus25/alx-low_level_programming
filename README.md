@@ -17,3 +17,6 @@ This repository contains programs written for the low-level programming and algo
 - [0x0C. C - More malloc, free](https://github.com/bdbaraban/holbertonschool-low_level_programming/blob/master/0x0B-more_malloc_free)
 - [0x0D. C - Preprocessor](https://github.com/Callistus25/alx-low_level_programming/tree/master/0x0D-preprocessor)
 - [0x0E. C - Structures, typedef](https://github.com/Callistus25/alx-low_level_programming/tree/master/0x0E-structures_typedef)
+- 0x0F. C - Variadic functions
+0x10. C - printf
+0x12. C - Singly linked lists
