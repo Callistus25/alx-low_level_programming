@@ -38,7 +38,9 @@ This project covers the building and using singly linked lists in `C` while lear
 
 4. Free list
 
-4-free_list.c: C function that frees a list_t list.
+	- [4-free_list.c](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x12-singly_linked_lists/4-free_list.c): C function that frees a list_t list.
+	- Prototype: `void free_list(list_t *head);`
+
 5. The Hare and the Tortoise
 
 100-first.c: C function that prints You're beat! and yet, you must allow,\nI bore my house upon my back!\n before the main function is executed.
