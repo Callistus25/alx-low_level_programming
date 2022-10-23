@@ -1,7 +1,8 @@
 ## More functions, more nested loops
 
-Project i did during Full Stack Software Engineering studies at alx. It aims to learn about nested loops in `C` language.
+This project aims to show programs about nested loops in `C` language.
 
+[main.h](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x04-more_functions_nested_loops/main.h): Header file that contains all the prototypes for the various `C` functions.
 
 0. isupper.
 
