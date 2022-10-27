@@ -44,19 +44,25 @@ This project continued the practice aof building and using singly linked lists i
 	- Prototype: `void free_listint2(listint_t **head);`
 6. Pop
 
-	- [6-pop_listint.c]: C function that deletes the head node of a listint_t linked list.
-If the linked list is empty - returns 0.
-Otherwise - returns the head node's data (n).
+	- [6-pop_listint.c](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/6-pop_listint.c): C function that deletes the head node of a `listint_t` linked list.
+	- If the linked list is empty - returns `0`.
+	- Otherwise - returns the head node's data `(n)`.
+	- Prototype: `int pop_listint(listint_t **head);`
+
 7. Get node at index
 
-7-get_nodeint.c: C function that locates a given node of a listint_t linked list.
-If the node does not exist - returns NULL.
-Otherwise - returns the located node.
+	- [7-get_nodeint.c](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/7-get_nodeint.c): C function that returns the nth node of a `listint_t` linked list.
+	- Prototype: `listint_t *get_nodeint_at_index(listint_t *head, unsigned int index);`
+	- where `index` is the index of the node, starting at `0`
+	- if the node does not exist, return `NULL`
+
 8. Sum list
 
-8-sum_listint.c: C function that returns the sum of all the data (n) of a listint_t linked list.
-If the linked list is empty - returns 0.
-Otherwise - returns the sum of all the data (n).
+	- [8-sum_listint.c](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/8-sum_listint.c): C function that returns the sum of all the data (n) of a listint_t linked list.
+	- If the linked list is empty - returns `0`.
+	- Otherwise - returns the sum of all the data `(n)`.
+	- Prototype: `int sum_listint(listint_t *head);`
+
 9. Insert
 
 9-insert_nodeint.c: C function that inserts a new node to a listint_t linked list at a given position.
