@@ -9,8 +9,8 @@ main.h : Header file containing prototypes for all functions written in the proj
 
 0. 0
 
-	- [0-binary_to_uint.c]: C function that converts a binary number to an unsigned int.
-The parameter b is a pointer to a string of 0 and 1 characters.
+	- [0-binary_to_uint.c](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x14-bit_manipulation/0-binary_to_uint.c): C function that converts a binary number to an unsigned int.
+	- The parameter b is a pointer to a string of 0 and 1 characters.
 If b is NULL or there are one or more characters in b that are not 0 or 1 - returns 0.
 Otherwise - returns the converted number.
 1. 1
