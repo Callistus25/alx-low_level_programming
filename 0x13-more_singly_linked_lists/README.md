@@ -80,22 +80,34 @@ This project continued the practice aof building and using singly linked lists i
 
 11. Reverse list
 
-	- [100-reverse_listint.c](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/100-reverse_listint.c): C function that reverses a listint_t linked list using a maximum of one loop and two variables.
-Returns a pointer to the first node of the reversed list.
+	- [100-reverse_listint.c](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/100-reverse_listint.c): C function that reverses a `listint_t` linked list.
+	- Prototype: `listint_t *reverse_listint(listint_t **head);`
+	- Returns: a pointer to the first node of the reversed list
+	- You are not allowed to use more than `1` loop.
+	- You are not allowed to use `malloc`, free or arrays
+	- You can only declare a maximum of two variables in your function
 12. Print (safe version)
 
-101-print_listint_safe.c: C function that prints a listint_t linked list safely (ie. can free lists containing loops).
-Returns the number of nodes in the listint_t list.
+	- [101-print_listint_safe.c](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/101-print_listint_safe.c): C function that prints a `listint_t` linked list safely (ie. can free lists containing loops).
+	- Prototype: `size_t print_listint_safe(const listint_t *head);`
+	- Returns: the number of nodes in the list
+	- This function can print lists with a loop
+	- You should go through the list only once
+	- If the function fails, exit the program with status `98`
+
 13. Free (safe version)
 
-102-free_listint_safe.c: C function that frees a listint_t linked list safely (ie. can free lists containing loops).
-Returns the size of the list that was freed.
-Sets the head to NULL.
+	- [102-free_listint_safe.c](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/102-free_listint_safe.c): C function that frees a listint_t linked list safely (ie. can free lists containing loops).
+	- Prototype: `size_t free_listint_safe(listint_t **h);`
+	- Returns the size of the list that was freed.
+	- Sets the `head` to `NULL.`
+
 14. Find the loop
 
-103-find_loop.c: C function that finds the loop contained in a listint_t linked list using a maximum of two variables.
-If no loop is found - returns NULL.
-Otherwise - returns the address of the node where the loop starts.
+	- [103-find_loop.c](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/103-find_loop.c): C function that finds the loop contained in a `listint_t` linked list using a maximum of two variables.
+	- Prototype: `listint_t *find_listint_loop(listint_t *head);`
+	- If no loop is found - returns `NULL`.
+	- Otherwise - returns the address of the node where the loop starts.
 
 
 
