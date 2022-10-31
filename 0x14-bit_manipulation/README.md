@@ -31,9 +31,9 @@ Otherwise - returns the value of the bit at the given index.
 	- Otherwise - returns 1.
 4. 100
 
-4-clear_bit.c: C function that sets the value of a bit at a given index to 0.
-If an error occurs - returns -1.
-Otherwise - returns 1.
+	- [4-clear_bit.c](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x14-bit_manipulation/4-clear_bit.c): C function that sets the value of a bit at a given index to 0.
+	- If an error occurs - returns -1.
+	- Otherwise - returns 1.
 5. 101
 
 5-flip_bits.c: C function that returns the number of bits needed to be flipped to get from one number to another.
