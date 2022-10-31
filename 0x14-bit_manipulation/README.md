@@ -26,9 +26,9 @@ main.h : Header file containing prototypes for all functions written in the proj
 Otherwise - returns the value of the bit at the given index.
 3. 11
 
-3-set_bit.c: C function that sets the value of a bit at a given index to 1.
-If an error occurs - returns -1.
-Otherwise - returns 1.
+	- [3-set_bit.c](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x14-bit_manipulation/3-set_bit.c): C function that sets the value of a bit at a given index to 1.
+	- If an error occurs - returns -1.
+	- Otherwise - returns 1.
 4. 100
 
 4-clear_bit.c: C function that sets the value of a bit at a given index to 0.
