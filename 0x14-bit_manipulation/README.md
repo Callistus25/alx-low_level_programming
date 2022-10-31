@@ -20,9 +20,9 @@ main.h : Header file containing prototypes for all functions written in the proj
 
 2. 10
 
-2-get_bit.c: C function that returns the value of a bit at a given index.
-Indices start at 0.
-If an error occurs - returns -1.
+	- [2-get_bit.c](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x14-bit_manipulation/2-get_bit.c): C function that returns the value of a bit at a given index.
+	- Indices start at 0.
+	- If an error occurs - returns -1.
 Otherwise - returns the value of the bit at the given index.
 3. 11
 
