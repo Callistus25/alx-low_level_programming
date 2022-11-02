@@ -17,14 +17,15 @@ This project is about the three standard file descriptors and their `POSIX` name
 1. Under the snow
 
 	- [1-create_file.c](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x15-file_io/1-create_file.c): C function that creates a file.
-The paramter filename is the name of the file to create.
-The parameter text_content is a null-terminated string to write to the file.
-If text_content is NULL, the function creates an empty file.
-The created file has the permissions rw-------.
-If the file already exists, the existing permissions are not changed.
-Existing files are truncated.
-If filename is NULL or the funciton fails - returns -1.
-Otherwise - returns 1 on success.
+	- The parameter `filename` is the name of the file to create.
+	- The parameter `text_content` is a null-terminated string to write to the file.
+	- If `text_content` is `NULL`, the function creates an empty file.
+	- The created file has the permissions `rw-------`.
+	- If the file already exists, the existing permissions are not changed.
+	- Existing files are truncated.
+	- If filename is `NULL` or the funciton fails - returns `-1`.
+	- Otherwise - returns `1` on success.
+
 2. Speak gently, she can hear
 
 2-append_text_to_file.c: C function that appends text at the end of a file.
