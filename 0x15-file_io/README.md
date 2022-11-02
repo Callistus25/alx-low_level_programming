@@ -1,14 +1,14 @@
 ## C - File I/O
 
-project about the three standard file descriptors and their POSIX names as well as the difference between function and system calls. I practiced using the I/O system calls open, close, read, and write and the flags O_RDONLY, WR_ONLY, and O_RDWR to create, open, close, read, write, set permissions of files in C.
+This project is about the three standard file descriptors and their `POSIX` names as well as the difference between function and system calls. These were practiced using the `I/O` system calls `open`, `close`, `read`, and `write` and the flags `O_RDONLY`, `WR_ONLY`, and `O_RDWR` to `create`, `open`, `close`, `read`, `write`, set permissions of files in `C`.
 
-main.h: Header file containing prototypes for all functions written in the project.
+- [main.h](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x15-file_io/main.h): Header file containing prototypes for all functions written in the project.
 
 ## Tasks
 
 0. Tread lightly, she is near
 
-0-read_textfile.c: C function that reads a text file and prints it to the POSIX standard output.
+	- [0-read_textfile.c](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x15-file_io/0-read_textfile.c): C function that reads a text file and prints it to the POSIX standard output.
 The parameter letters is the number of letters the function should read and print.
 If the file is NULL or cannot be opened or read - returns 0.
 If the write call fails or does not write the expected number of bytes - returns 0.
