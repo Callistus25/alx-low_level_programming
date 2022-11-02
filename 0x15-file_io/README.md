@@ -8,14 +8,15 @@ This project is about the three standard file descriptors and their `POSIX` name
 
 0. Tread lightly, she is near
 
-	- [0-read_textfile.c](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x15-file_io/0-read_textfile.c): C function that reads a text file and prints it to the POSIX standard output.
-The parameter letters is the number of letters the function should read and print.
-If the file is NULL or cannot be opened or read - returns 0.
-If the write call fails or does not write the expected number of bytes - returns 0.
-Otherwise - returns the actual number of bytes the function can read and print.
+	- [0-read_textfile.c](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x15-file_io/0-read_textfile.c): C function that reads a text file and prints it to the `POSIX` standard output.
+	- The parameter letters is the number of letters the function should read and print.
+	- If the file is `NULL` or cannot be opened or read - returns `0`.
+	- If the write call fails or does not write the expected number of bytes - returns `0`.
+	- Otherwise - returns the actual number of bytes the function can read and print.
+
 1. Under the snow
 
-1-create_file.c: C function that creates a file.
+	- [1-create_file.c](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x15-file_io/1-create_file.c): C function that creates a file.
 The paramter filename is the name of the file to create.
 The parameter text_content is a null-terminated string to write to the file.
 If text_content is NULL, the function creates an empty file.
