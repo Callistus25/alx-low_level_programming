@@ -38,18 +38,19 @@ This project is about the three standard file descriptors and their `POSIX` name
 	- Otherwise - returns `1`.
 3. cp
 
-3-cp.c: C program that copies the contents of a file to another file.
-Usage: cp file_from file_to
-If file_to already exists, it is truncated.
-The created file has the permissions rw-rw-r--.
-If the file already exists, the existing permissions are not changed.
-If the number of arguments is incorrect, the function prints Usage: cp file_from file_to, followed by a new line on the POSIX standard error and exits with code 97.
-If file_from does not exist or the user lacks read permissions on it, the function prints Error: Can't read from file NAME_OF_THE_FILE, followed by a new line and exits with code 98.
-Where NAME_OF_THE_FILE is the first argument passed to the program.
-If files cannot be created or if write to file_to fails, the function prints Error: Can't write to NAME_OF_THE_FILE, followed by a new line and exits with code 99.
-Where NAME_OF_THE_FILE is the second argument passed to the program.
-If the user cannot close a file descriptor, the function prints Error: Can't close fd FD_VALUE, followed by a new line on the POSIX standard error and exits with code 100.
-Where FD_VALUE is the value of the file descriptor.
+	- [3-cp.c](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x15-file_io/3-cp.c): C program that copies the contents of a file to another file.
+	- Usage: cp `file_from file_to`
+	- If `file_to` already exists, it is truncated.
+	- The created file has the permissions `rw-rw-r--`.
+	- If the file already exists, the existing permissions are not changed.
+	- If the number of arguments is incorrect, the function prints Usage: `cp file_from file_to`, followed by a new line on the `POSIX` standard error and exits with code `97`.
+	- If `file_from` does not exist or the user lacks read permissions on it, the function prints Error: `Can't read from file NAME_OF_THE_FILE`, followed by a new line and exits with code `98`.
+	- Where `NAME_OF_THE_FILE` is the first argument passed to the program.
+	- If files cannot be created or if write to `file_to fails`, the function prints Error: `Can't write to NAME_OF_THE_FILE`, followed by a new line and exits with code `99`.
+	- Where `NAME_OF_THE_FILE` is the second argument passed to the program.
+	- If the user cannot close a file descriptor, the function prints Error: `Can't close fd FD_VALUE`, followed by a new line on the `POSIX` standard error and exits with code `100`.
+	- Where `FD_VALUE` is the value of the file descriptor.
+
 4. elf
 
 100-elf_header.c: C program that displays the information contained in the ELF header at the start of an ELF file.
