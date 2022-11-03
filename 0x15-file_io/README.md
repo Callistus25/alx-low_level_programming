@@ -53,16 +53,20 @@ This project is about the three standard file descriptors and their `POSIX` name
 
 4. elf
 
-100-elf_header.c: C program that displays the information contained in the ELF header at the start of an ELF file.
-Usage elf_header elf_filename
-Displayed information:
-Magic
-Class
-Data
-Version
-OS/ABI
-ABI Version
-Type
-Entry point address
-Format is identical to readelf -h (version 2.26.1).
-If an error occurs or the file is not an ELF file, the function displays a corresponding error message to stderr and exits with a status value of 98.
+	- [100-elf_header.c](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x15-file_io/100-elf_header.c): C program that displays the information contained in the `ELF` header at the start of an `ELF` file.
+	- Usage: `elf_header elf_filename`
+	- Displayed information:
+		- Magic
+		- Class
+		- Data
+		- Version
+		- OS/ABI
+		- ABI Version
+		- Type
+		- Entry point address
+	- Format is identical to `readelf -h` (version `2.26.1`).
+	- If the file is not an `ELF` file, or on error, exit with status code `98` and display a comprehensive error message to `stderr`
+	- You are allowed to use `lseek` once
+	- You are allowed to use `read` a maximum of 2 times at runtime
+	- You are allowed to have as many functions as you want in your source file
+	- You are allowed to use `printf`
