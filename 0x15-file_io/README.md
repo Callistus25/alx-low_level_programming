@@ -28,14 +28,14 @@ This project is about the three standard file descriptors and their `POSIX` name
 
 2. Speak gently, she can hear
 
-2-append_text_to_file.c: C function that appends text at the end of a file.
-The parameter filename is the name of the file.
-The parameter text_content is a null-terminated string to append to the file.
-The function does not create the file if it does not exist.
-If text_content is NULL, nothing is added to the file.
-If the function fails or filename is NULL - returns -1.
-If the file does not exist or the user lacks write permissions on the file - returns -1.
-Otherwise - returns 1.
+	- [2-append_text_to_file.c](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x15-file_io/2-append_text_to_file.c): C function that appends text at the end of a file.
+	- The parameter `filename` is the name of the file.
+	- The parameter `text_content` is a null-terminated string to append to the file.
+	- The function does not create the file if it does not exist.
+	- If text_content is `NULL`, nothing is added to the file.
+	- If the function fails or filename is `NULL` - returns `-1`.
+	- If the file does not exist or the user lacks write permissions on the file - returns `-1`.
+	- Otherwise - returns `1`.
 3. cp
 
 3-cp.c: C program that copies the contents of a file to another file.
