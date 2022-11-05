@@ -45,8 +45,10 @@ Otherwise - returns the value of the bit at the given index.
 6. Endianness
 
 	- [100-get_endianness.c](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x14-bit_manipulation/100-get_endianness.c): C function that checks the endianness.
-If big-endian - returns 0.
-If little-endian - returns 1.
+	- Prototype: `int get_endianness(void);`
+	- If big-endian - returns 0.
+	- If little-endian - returns 1.
+
 7. Crackme3
 
-101-password: File containing the password for the crackme3 executable.
+	- [101-password](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x14-bit_manipulation/101-password): File containing the password for the [crackme3](https://github.com/holbertonschool/0x13.c) executable.
