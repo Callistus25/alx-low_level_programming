@@ -38,12 +38,13 @@ Otherwise - returns the value of the bit at the given index.
 
 5. 101
 
-5-flip_bits.c: C function that returns the number of bits needed to be flipped to get from one number to another.
+	- [5-flip_bits.c](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x14-bit_manipulation/5-flip_bits.c): C function that returns the number of bits needed to be flipped to get from one number to another.
 	- Prototype: `unsigned int flip_bits(unsigned long int n, unsigned long int m);`
 	- You are not allowed to use the % or / operators
 
 6. Endianness
-100-get_endianness.c: C function that checks the endianness.
+
+	- [100-get_endianness.c](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x14-bit_manipulation/100-get_endianness.c): C function that checks the endianness.
 If big-endian - returns 0.
 If little-endian - returns 1.
 7. Crackme3
