@@ -32,13 +32,17 @@ Otherwise - returns the value of the bit at the given index.
 4. 100
 
 	- [4-clear_bit.c](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x14-bit_manipulation/4-clear_bit.c): C function that sets the value of a bit at a given index to 0.
-	- If an error occurs - returns -1.
-	- Otherwise - returns 1.
+	- Prototype: `int clear_bit(unsigned long int *n, unsigned int index);`
+	- where `index` is the index, starting from `0` of the bit you want to set
+	- Returns: 1 if it worked, or -1 if an error occurred.
+
 5. 101
 
 5-flip_bits.c: C function that returns the number of bits needed to be flipped to get from one number to another.
-6. Endianness
+	- Prototype: `unsigned int flip_bits(unsigned long int n, unsigned long int m);`
+	- You are not allowed to use the % or / operators
 
+6. Endianness
 100-get_endianness.c: C function that checks the endianness.
 If big-endian - returns 0.
 If little-endian - returns 1.
