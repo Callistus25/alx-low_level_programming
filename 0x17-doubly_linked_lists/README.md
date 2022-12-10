@@ -1,5 +1,9 @@
 ## C - Doubly linked lists
 
+### Prototype List
+
+[Lists.h](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x17-doubly_linked_lists/lists.h): Contains the list of all the prototype used in the code.
+
 ## Tasks
 
 
