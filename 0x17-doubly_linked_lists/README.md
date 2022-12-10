@@ -45,21 +45,18 @@
 
 7. Insert at index
 
-Write a function that inserts a new node at a given position.
-
-Prototype: `dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n);
-where idx is the index of the list where the new node should be added. Index starts at 0
-Returns: the address of the new node, or NULL if it failed
-if it is not possible to add the new node at index idx, do not add the new node and return NULL
-Your files 2-add_dnodeint.c and 3-add_dnodeint_end.c will be compiled during the correction.
+	- [7-insert_dnodeint.c](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x17-doubly_linked_lists/7-insert_dnodeint.c): Write a function that inserts a new node at a given position.
+	- Prototype: `dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n);`
+	- where `idx` is the index of the list where the new node should be added. Index starts at `0`
+	- Returns: the address of the new node, or `NULL` if it failed
+	- if it is not possible to add the new node at index `idx`, do not add the new node and return `NULL`
+	- Your files `2-add_dnodeint.c` and `3-add_dnodeint_end.c` will be compiled during the correction.
 
 8. Delete at index
-
-Write a function that deletes the node at index index of a dlistint_t linked list.
-
-Prototype: int delete_dnodeint_at_index(dlistint_t **head, unsigned int index);
-where index is the index of the node that should be deleted. Index starts at 0
-Returns: 1 if it succeeded, -1 if it failed
+	- [8-delete_dnodeint.c](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x17-doubly_linked_lists/8-delete_dnodeint.c): Write a function that deletes the node at index index of a dlistint_t linked list.
+	- Prototype: `int delete_dnodeint_at_index(dlistint_t **head, unsigned int index);`
+	- where `index` is the index of the node that should be deleted. Index starts at `0`
+	- Returns: `1` if it succeeded, `-1` if it failed
 
 9. Crackme4
 
