@@ -27,24 +27,21 @@
 
 4. Free list
 
-Write a function that frees a dlistint_t list.
-
-Prototype: `void free_dlistint(dlistint_t *head);`
+	- [4-free_dlistint.c](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x17-doubly_linked_lists/4-free_dlistint.c): Write a function that frees a `dlistint_t` list.
+	- Prototype: `void free_dlistint(dlistint_t *head);`
 
 5. Get node at index
 
-Write a function that returns the nth node of a dlistint_t linked list.
-
-Prototype: dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index);
-where index is the index of the node, starting from 0
-if the node does not exist, return NULL
+	- [5-get_dnodeint.c](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x17-doubly_linked_lists/5-get_dnodeint.c) Write a function that returns the `nth` node of a `dlistint_t` linked list.
+	- Prototype: `dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index);`
+	- where `index` is the index of the node, starting from `0`
+	- if the node does not exist, return `NULL`
 
 6. Sum list
 
-Write a function that returns the sum of all the data (n) of a dlistint_t linked list.
-
-Prototype: `int sum_dlistint(dlistint_t *head);`
-if the list is empty, return `0`
+	- [6-sum_dlistint.c](https://github.com/Callistus25/alx-low_level_programming/blob/master/0x17-doubly_linked_lists/6-sum_dlistint.c): Write a function that returns the sum of all the data `(n)` of a `dlistint_t` linked list.
+	- Prototype: `int sum_dlistint(dlistint_t *head);`
+	- if the list is empty, return `0`
 
 7. Insert at index
 
